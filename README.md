@@ -10,3 +10,4 @@ RPGツクールMZ用のプラグインたちです。
 |InterceptLayer|様々な階層にレイヤーを追加します。|
 |ShareCommands|SNSシェア用のコマンドを提供します。|
 |GtagCommands|gtag.js用のコマンドを提供します。|
+|GTMCommands|gtm.js用のコマンドを提供します。|
