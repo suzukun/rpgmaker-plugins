@@ -72,7 +72,7 @@
 
   const createGTMBodyCodeElement = (id) => {
     const wrapper = document.createElement("noscript");
-    const element = document.createElement("iframe");
+    const element = document.createTextNode("iframe");
 
     element.height = 0;
     element.width = 0;
