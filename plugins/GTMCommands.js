@@ -72,13 +72,7 @@
 
   const createGTMBodyCodeElement = (id) => {
     const wrapper = document.createElement("noscript");
-    const element = document.createElement("iframe");
-
-    element.height = 0;
-    element.width = 0;
-    element.style.display = "none";
-    element.style.visibility = "hidden";
-    element.src = `https://www.googletagmanager.com/ns.html?id=${id}`;
+    const element = document.createTextNode(`<iframe src="https://www.googletagmanager.com/ns.html?id=${id}" height="0" width="0" style="display:none;visibility:hidden"></iframe>`);
 
     wrapper.append(element);
 
